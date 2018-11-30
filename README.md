@@ -1,10 +1,18 @@
-BUAAthesis-mod
-==============
+fork from https://github.com/KagamiChan/BUAAthesis-mod
 
-My thesis' cls &amp; bst, mod from BUAAthesis, just for reference.
+===============================
+cls 基于 BHOSC/BUAAthesis 并作修改 ******只针对硕士生相关配置进行修改，未对本科生配置作对应修改*******
+bst 基于 KagamiChan/BUAAthesis-mod 并作修改
 
-**THESE FILES COME WITHOUT ANY GARANTY, USE IT AT YOUR OWN RISK!**
 
-The cls file is from [BUAAthesis](https://github.com/BHOSC/BUAAthesis), with some modifications made for my own use.
+upadte log
 
-The bst file is from [Nju-thesis](https://github.com/Haixing-Hu/nju-thesis), with some low-end change, e.g. disable doi link appearance.
+18/11/30
+cls主要修改内容：
+1、图表标题中文加粗，使用思源宋体中等SourceHanSerifSC-Medium，https://github.com/adobe-fonts/source-han-serif/tree/release/
+2、页面左右边距（给单页打印用的），主要原因是打印裁剪其实会导致右侧边距远小于左侧
+3、其它间隔类设置，如目录间距
+
+bst修改内容：
+作者除首字符外不大写
+
